@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <script defer src="index.js"></script>
+
+    <title>Mascota Food</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <button class="nav-toggle"><i class='bx bx-menu'></i></button>
+            <a href="index.html">
+                <img src="assets\MascotasFood.png" alt="logo" class="logo"></a>
+            <input id="buscador" type="text" placeholder="Busca tu marca preferida..">
+
+        </div>
+        <nav class="navegacion">
+            <ul class="menu nav-menu_visible" id="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="/secciones/productos/productos.html">Productos</a>
+                    <ul class="submenu">
+                        <li><a href="">Alimentos</a>
+                            <ul class="subsubmenu">
+                                <li id="Perros"><a href="">Perros</a>
+                                    <ul class="menuPerros">
+                                        <li><a href="">Secos</a></li>
+                                        <li><a href="">Húmedos</a></li>
+                                    </ul>
+                                </li>
+                                <li id="Gatos"><a href="">Gatos</a>
+                                    <ul class="menuGatos">
+                                        <li><a href="">Secos</a></li>
+                                        <li><a href="">Húmedos</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="">Cuidados e higiene</a></li>
+                        <li><a href="">Juguetes y camas</a></li>
+                    </ul>
+                </li>
+                <li> <a href="/secciones/nosotros/nosotros.html">Nosotros</a></li>
+                <li><a href="/secciones/contactanos/contactanos.html">Contáctanos</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+
+
+    <div class="Tienda">
+
+        <div class="header-tienda">
+            <h2 class="titulo-tienda">Tienda Online</h2>
+            <div class="container-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="icon-cart">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+                </svg>
+            </div>
+
+        </div>
+
+
+
+
+        <div class="container-items">
+            <div class="producto">
+                <figure>
+                    <img src="assets/Royalcaninmini.webp" alt="Royal canin" height="300" width="300">
+                </figure>
+                <div class="info-product">
+                    <h3>Royal canin mini 7.5kg</h3>
+                    <p class="price">$18800.00</p>
+                    <button class="agregar-al-carrito" onclick="alerta()">Comprar</button>
+                </div>
+            </div>
+
+
+            <div class="producto">
+                <figure>
+                    <img src="assets/dogproadultos.webp" alt="Dog pro adultos" height="300px" width="300px">
+                </figure>
+                <div class="info-product">
+                    <h3>Dog pro 7.5kg </h3>
+                    <p class="price">$14800.00</p>
+                    <button class="agregar-al-carrito" onclick="alerta()">Comprar</button>
+                </div>
+            </div>
+
+
+            <div class="producto">
+                <figure>
+                    <img src="assets/criadoresadultos.webp" alt="Criadores adultos" height="450" width="300">
+                </figure>
+                <div class="info-product">
+                    <h3>Criadores 22kg</h3>
+                    <p class="price">$8600.00</p>
+                    <button class="agregar-al-carrito" onclick="alerta()">Comprar</button>
+                </div>
+            </div>
+
+            <div class="producto">
+                <figure>
+                    <img src="assets/vitalcancachorro.webp" alt="Vitalcan cachorro" height="450" width="300">
+                </figure>
+                <div class="info-product">
+                    <h3>Vitalcan cachorro 20kg</h3>
+                    <p class="price">$15984.00</p>
+                    <button class="agregar-al-carrito" onclick="alerta()">Comprar</button>
+                </div>
+            </div>
+
+
+            <div class="producto">
+                <figure>
+                    <img src="assets/criadoresadultos.webp" alt="Nutricare adultos" height="450" width="300">
+                </figure>
+                <div class="info-product">
+                    <h3>Nutricare adultos 20kg</h3>
+                    <p class="price">$15800.00</p>
+                    <button class="agregar-al-carrito" onclick="alerta()">Comprar</button>
+                </div>
+            </div>
+
+
+            <div class="producto">
+                <figure>
+                    <img src="assets/dogproadultospeque.webp" alt="Dogpro adulto" height="450" width="300">
+                </figure>
+                <div class="info-product">
+                    <h3>Dog pro perro adulto 20kg</h3>
+                    <p class="price">$18400.00</p>
+                    <button class="agregar-al-carrito" onclick="alerta()">Comprar</button>
+                </div>
+            </div>
+
+
+            <div class="producto">
+                <figure>
+                    <img src="assets/agility.webp" alt="agility" height="450" width="300">
+                </figure>
+                <div class="info-product">
+                    <h3>Agility 15kg</h3>
+                    <p class="price">$17900.00</p>
+                    <button class="agregar-al-carrito" onclick="alerta()">Comprar</button>
+                </div>
+            </div>
+
+
+            <div class="producto">
+                <figure>
+                    <img src="assets/purinaexellent.webp" alt="Purina exellent" height="450" width="300">
+                </figure>
+                <div class="info-product">
+                    <h3>Purina exellent 22kg</h3>
+                    <p class="price">$27900.00</p>
+                    <button class="agregar-al-carrito" onclick="alerta()">Comprar</button>
+                </div>
+            </div>
+
+
+            <div class="producto">
+                <figure>
+                    <img src="assets/oldprince.webp" alt="oldprince" height="450" width="300">
+                </figure>
+                <div class="info-product">
+                    <h3>Old prince premium 7.5kg</h3>
+                    <p class="price">$6300.00</p>
+                    <button class="agregar-al-carrito" onclick="alerta()">Comprar</button>
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="https://www.instagram.com/mascotafoodvillaelisa/" class="icon"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/mascotafoodvillaelisa/" class="icon"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/mascotafoodvillaelisa/" class="icon"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.instagram.com/mascotafoodvillaelisa/" class="icon"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>Powered by grupo n° 0000</p>
+    </footer>
+
+</body>
+
+</html>
